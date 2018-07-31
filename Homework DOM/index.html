@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+  <title>Contact form</title>
+</head>
+  
+<body>
+  
+  <h1 id="title1">CONTACT FORM</h1>
+  <h2 class="hidden"></h2>
+  <div>
+    <img src="welcome1.jpeg" alt="WELCOME" width="700" height="580">
+  </div>
+  
+  <div class="container">
+      <label id="fname1"><b>First Name</b></label>
+      <input type="text" id="fname" placeholder="First Name" name="firstname" autocomplete="off">
+      <label id="lname1"><b>Last Name</b></label>
+      <input type="text" id="lname" placeholder="Last Name" name="lastname" autocomplete="off">
+      
+      <b><p id="gender">
+      <label>Gender:</label>
+		  <input id="male" type="radio" value="male" name="gender" checked="checked"/>M 
+			<input id="female" type="radio" value="female" name="gender"/>F
+      </b></p>
+      <label id="subject1"><b>Message</b></label>
+      <textarea id="message" name="subject" placeholder="Your message here..." style="height:150px"></textarea>
+      <button id="clickMe" type="submit">Submit</button>
+  </div>
+  
+</body>
+</html>

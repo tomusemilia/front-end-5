@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <style>
+    #update {
+      background-color: #31B404;
+    }
+    
+    #delete {
+      background-color: #FE2E2E;
+    }
+  </style>
+  
+  <meta charset="UTF-8">
+  <title>Homework OOP</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../models/Games.js"></script>
+  <script type="text/javascript" src="../models/Game.js"></script>
+  <script type="text/javascript" src="../views/games.js"></script>
+
+</head>
+<body>
+  
+  <ul id="games-list">
+    <input type="button" id="update" value="Update" onclick="return confirm('Are you sure you want to update this Game?');">
+    <input type="button" id="delete" value="Delete" onclick="return confirm('Are you sure you want to delete this Game?');">
+  </ul> 
+ 
+</body>
+</html>
